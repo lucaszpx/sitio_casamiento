@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Listado de css con version dinamica segun modificacion de archivo -->
+<link rel="stylesheet" href="resources/bootstrap.min.css">
+<link rel="stylesheet" href="resources/jquery.fancybox.min.css">
+<link rel="stylesheet" href="resources/styles.css">
+<!-- Font -->
+<link href="resources/css2" rel="stylesheet">
+
+
+<!-- Font Awesome -->
+<link href="resources/all.min.css" rel="stylesheet">
+
+<!-- Title -->
+<title>Casamiento Ire & Lucas</title>
+</head>
+
+<body>
+  <div class="parallax-mirror" style="visibility: visible; z-index: -100; position: fixed; top: 0px; left: 0px; overflow: hidden; transform: translate3d(0px, 0px, 0px); height: 598px; width: 1323px;"><img class="parallax-slider" src="resources/portada.jpg" style="transform: translate3d(0px, -72px, 0px); position: absolute; height: 743px; width: 1323px; max-width: none;"></div><div class="parallax-mirror" style="visibility: hidden; z-index: -100; position: fixed; top: 0px; left: 0px; overflow: hidden;"><img class="parallax-slider" src="resources/portada.jpg"></div>
+
+    <!-- Portada -->
+    <!-- Portada -->
+<section class="portada parallax-portada d-flex justify-content-center align-items-center">
+
+  <!-- Logo central -->
+  <div class="logo-portada fade-in-portada">
+    <img class="" src="resources/logo-portada_01.png" alt="">
+    <div class="scroll-down"></div>
+  </div>
+
+</section>
+
+    <!-- Cuenta Regresiva -->
+    <section class="cuenta-regresiva" id="cuenta-regresiva">
+  <div class="container">
+    <!-- Contenedor de cuenta regresiva -->
+    <p class="m-3">Faltan ...</p>
+    <p id="reloj" class="descartar">¡Hoy es el gran día!</p>
+    <div class="row justify-content-center margenSup" id="reloj_number">
+      <div class="col-md-1 col-2 d-flex flex-column justify-content-center p-0">
+        <p class="num_cuenta" id="dias">266</p>
+        <p class="text_cuenta">días</p>
+      </div>
+      <p class="num_cuenta">:</p>
+      <div class="col-md-1 col-2 d-flex flex-column justify-content-center p-0">
+        <p class="num_cuenta" id="horas">23</p>
+        <p class="text_cuenta">hs</p>
+      </div>
+      <p class="num_cuenta">:</p>
+      <div class="col-md-1 col-2 d-flex flex-column justify-content-center p-0">
+        <p class="num_cuenta" id="min">45</p>
+        <p class="text_cuenta">min</p>
+      </div>
+      <p class="num_cuenta">:</p>
+      <div class="col-md-1 col-2 d-flex flex-column justify-content-center p-0">
+        <p class="num_cuenta" id="seg">19</p>
+        <p class="text_cuenta">seg</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Lugar -->
+ <section class="ceremonia-fiesta mb-5">
+  <div class="container text-center">
+
+    <img src="resources/icono-fiesta.svg" 
+         class="icon ceremonia fade-in" 
+         alt=""
+         style="opacity: 1;">
+
+    <div class="animated divCeremonia fadeInUp">
+      <h4>Cuando y Donde</h4>
+      <p>
+        12 de Septiembre de 2026 <br>
+        18:00 hs ¡SER PUNTUAL!<br>
+        <hr>
+        Salon Cielo del Paraná<br>
+        Arroyo Seco, Santa Fe.<br>
+        Coordenadas: -33.165251138638794, -60.452233974712996
+      </p>
+      <h5>¡Te esperamos!</h5>
+      <img src="resources/salon.jpeg"
+           class="img-fluid rounded mt-3"
+           alt="Salón Cielo del Paraná">
+
+      <div class="mapbox mt-4">
+        <iframe
+          title="Mapa Cielo del Paraná"
+          loading="lazy"
+          src="https://www.google.com/maps?q=-33.165251138638794,-60.452233974712996&z=15&output=embed">
+        </iframe>
+      </div>
+
+      <a target="_blank"
+         href="https://maps.app.goo.gl/VJJZMYRXnxCHugau5"
+         class="btn mt-4">
+         CÓMO LLEGAR
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- Tarjeta -->
+ <section class="ceremonia-fiesta mb-5">
+  <div class="container text-center">
+
+    <img src="resources/icono-calendario.svg" 
+         class="icon ceremonia fade-in" 
+         alt=""
+         style="opacity: 1;">
+
+    <div class="animated divCeremonia fadeInUp">
+      
+      <h4>Confirmación de Asistencia</h4>
+      <p>
+        Nuestro mayor regalo es que puedas compartir este momento con nosotros.<br><br>
+        VALOR TARJETA <br>$90.000
+      </p>
+
+
+        <a data-fancybox="" data-src="#hidden-cbu" href="javascript:;" data-options="{&quot;touch&quot; : false}" class="btn mt-4">Ver Datos Bancarios</a>
+
+        <!-- Datos Cbu -->
+<!-- Datos CBU (usa un único id) -->
+<div style="display: none;" id="hidden-cbu">
+  <span class="title">Datos Bancarios</span>
+  <ul>
+    <li>Nombre del Titular: Irene Paula Carmona</li>
+    
+<li>
+  CVU: <span id="cbu-cvu">0000076500000020115320</span>
+  <button class="btn-copy btn-icon" data-copy="#cbu-cvu" aria-label="Copiar CVU" title="Copiar CVU">📋</button>
+</li>
+<li>
+  Alias: <span id="cbu-alias">casamiento.irelucas</span>
+  <button class="btn-copy btn-icon" data-copy="#cbu-alias" aria-label="Copiar alias" title="Copiar alias">📋</button>
+</li>
+    <li>DNI: 35550433</li>
+    <li>Personal Pay</li>
+  </ul>
+</div>
+<p><br><i>*Por favor confirmar la asistencia antes del 12/06/2026.</i></p>
+<!---->
+
+    </div>
+        <div class="animated divAgenda fadeInUp">
+          <br>
+            <p>¡Agendá la fecha en tu calendario!</p>
+
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    AGENDAR EVENTO
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="">
+                    <a target="_blank" id="LinkCalendarGoogle" class="dropdown-item" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;dates=20261122T220000Z%2F20261123T025900Z&amp;text=Boda%20de%20Prueba&amp;text=Boda%20de%20Prueba"><img src="resources/icons8-calendario-de-google.svg" class="iconLink mr-3" alt="icono google">Google</a>
+                    <a target="_blank" id="LinkCalendarOutlook" class="dropdown-item" href="https://outlook.live.com/calendar/0/action/compose?allday=false&amp;enddt=2026-11-23T02%3A59%3A00Z&amp;path=%2Fcalendar%2Faction%2Fcompose&amp;rru=addevent&amp;startdt=2026-11-22T22%3A00%3A00Z&amp;subject=Boda%20de%20Prueba"><img src="resources/icons8-ms-outlook.svg" class="iconLink mr-3" alt="icono google">Outlook</a>
+                    <a target="_blank" id="LinkCalendarMicrosoft365" class="dropdown-item" href="https://outlook.office.com/calendar/action/compose?allday=false&amp;enddt=2026-11-23T02%3A59%3A00Z&amp;path=%2Fcalendar%2Faction%2Fcompose&amp;rru=addevent&amp;startdt=2026-11-22T22%3A00%3A00Z&amp;subject=Boda%20de%20Prueba"><img src="resources/icons8-oficina-365.svg" class="iconLink mr-3" alt="icono google">Microsoft
+                        365</a>
+                    <a target="_blank" id="LinkCalendarApple" class="dropdown-item" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0AVERSION%3A2.0%0ABEGIN%3AVEVENT%0AURL%3AEvento%0ADTSTART%3A20261122T220000Z%0ADTEND%3A20261123T025900Z%0ASUMMARY%3ABoda%20de%20Prueba%0AEND%3AVEVENT%0AEND%3AVCALENDAR"><img src="resources/icons8-mac-os.svg" class="iconLink mr-3" alt="icono google">Apple</a>
+                    <a target="_blank" id="LinkCalendarYahoo" class="dropdown-item" href="https://calendar.yahoo.com/?dur=&amp;et=20261122T235900Z&amp;st=20261122T190000Z&amp;title=Boda%20de%20Prueba&amp;v=60"><img src="resources/icons8-yahoo.svg" class="iconLink mr-3" alt="icono google">Yahoo</a>
+                </div>
+            </div>
+  </div>
+  
+</section>
+ 
+
+    <!-- REGALO -->
+    
+  <section class="cbu">
+
+    <div class="container">
+
+      <img src="resources/icono-regalo.svg" alt="" class="icon regalo fade-in" style="opacity: 1;">
+      <div class="animated divCbu fadeInUp">
+        <p>Si además desean realizarnos un regalo, pueden colaborar con nuestra Luna de Miel a la cuenta mencionada anteriormente.</p>
+        </div>
+  </section>
+
+   <!-- LA FIESTA -->
+    
+   <section class="ceremonia-fiesta mb-5">
+  <div class="container text-center">
+
+    <img src="resources/icono-fiesta3.png" 
+         class="icon ceremonia fade-in" 
+         alt=""
+         style="opacity: 1;">
+
+    <div class="animated divCeremonia fadeInUp">
+      <h4>LA FIESTA</h4>
+    <p>Queremos que vivas y disfrutes nuestro casamiento de la forma más cómoda posible.</p>
+    <p>Si necesitas un menú alternativo por favor completá el formulario.</p>
+
+          <a target="_blank"
+         href="https://forms.gle/5nDG1hhXZ1pfEnGM9"
+         class="btn mt-4">
+         Formulario Menu
+      </a>
+      </div>
+
+  </section>
+
+
+    <!-- Canciones -->
+    <section class="canciones">
+
+  <div class="container">
+
+
+    <img src="resources/icono-canciones.svg" alt="" class="icon iconMusic fade-in" style="opacity: 1;">
+
+    <br>
+    <div class="animated divCanciones fadeInUp">
+      <h4>¿QUÉ CANCIONES NO PUEDEN FALTAR?</h4>
+
+      <p>¡Ayudanos sugiriendo las canciones que pensás que no pueden faltar en la fiesta!</p>
+      <a target="_blank" href="https://forms.gle/XtYTQ2VmRydyfjgc6" class="btn">Sugerir canción</a>
+    </div>
+  </div>
+
+</section>
+        <!-- info util -->
+    <section class="alojamientos">
+
+  <div class="container">
+    <img src="resources/logo-viaje.png" alt="" class="icon iconMusic fade-in" style="opacity: 1;">
+     <div class="animated divAlojamientos fadeInUp">
+    <h4>¿VIAJAS?</h4>
+    <p>Necesitas información en donde alojarte, contactanos.</p>
+
+      
+<div class="text-center mt-4">
+  <a id="btnWhatsApp" class="btn btn-alt" target="_blank" rel="noopener">
+    <class="fab fa-whatsapp" style="margin-right:8px;">
+    Whatsapp
+  </a>
+</div>
+
+ </div></section>
+
+
+    <!-- Gracias -->
+    <section class="canciones">
+
+  <div class="container">
+
+    <p>¡Gracias por acompañarnos en este momento tan importante!</p>
+
+  </div>
+
+</section>
+        <!-- contacto -->
+    <!-- Contactos -->
+<section class="contacto">
+  <div class="container">
+    <div class="row">
+
+
+    <!-- Varaibles para JS desde config -->
+    <script>
+    // Cuenta regresiva
+    var fechaCuentaRegresiva = "09/12/2026 18:00:00";
+
+    // Datos para Agenda
+    var fechaInicioEvento = "09/12/2026 18:00:00";
+    var fechaFinEvento = "09/13/2026 03:00:00";
+    var tituloEvento = "Casamiento Ire y Lucas";
+    </script>
+
+
+    <!-- Scripts Generales-->
+    <!-- Listado de js con version dinamica segun modificacion de archivo -->
+<script type="text/javascript" src="resources/jquery-3.5.1.slim.min.js"></script><script type="text/javascript" src="resources/popper.min.js"></script><script type="text/javascript" src="resources/bootstrap.min.js"></script><script type="text/javascript" src="resources/parallax.min.js"></script><script type="text/javascript" src="resources/jquery.fancybox.min.js"></script><script type="text/javascript" src="resources/scripts.js"></script>
+
+
+
+
+
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpbh-mt'},{'server':'p3plmcpnl504514'},{'dcenter':'p3'},{'cp_id':'3446280'},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src="resources/tccl.min.js"></script>
+<!-- Toast para feedback de copiado -->
+<div id="copy-toast" class="copy-toast">¡Copiado al portapapeles!</div>
+</body></html>
